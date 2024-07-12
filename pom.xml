@@ -13,7 +13,7 @@
     <name>${project.artifactId}</name>
     <url>http://maven.apache.org</url>
 
-    <properties>
+<!--     <properties>
         <!-- - - - - - Encoding - - - - - -->
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <!-- - - - - - Java - - - - - -->
@@ -25,6 +25,12 @@
         <sonar.dynamicAnalysis>reuseReports</sonar.dynamicAnalysis>
         <sonar.jacoco.reportPath>${project.basedir}/target/jacoco.exec</sonar.jacoco.reportPath>
         <sonar.language>java</sonar.language>
+    </properties> -->
+    <properties>
+        <sonar.organization>YOUR_ORGANIZATION</sonar.organization>
+        <sonar.projectKey>YOUR_PROJECT_KEY</sonar.projectKey>
+        <sonar.host.url>YOUR_SONARQUBE_SERVER_URL</sonar.host.url>
+        <sonar.login>YOUR_SONARQUBE_TOKEN</sonar.login>
     </properties>
 
     <dependencies>
